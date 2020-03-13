@@ -9,3 +9,6 @@
    1. `BASE_URL`为存放index.php的目录，例如http://localhost/folding-at-SUSTech-server/src
    2. `LANGUAGE`为默认语言，其他无需设置
 4. 访问 <BASE_URL>/index.php
+
+其他配置
+1. `php.ini`：将`extension=php_sqlite3.dll`和`extension=pdo_sqlite`取消注释
