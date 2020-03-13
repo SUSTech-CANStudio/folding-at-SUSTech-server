@@ -367,3 +367,30 @@ A859 .<= ''
 156C .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
 156C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
 156C .<= ''
+B301 .START (2020-03-13 07:54:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+B301 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B301 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B301 .|    |    Session is not authenticated [Client.php:938]
+B301 .|    <= ''
+B301 .<= ''
+B301 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B301 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B301 .<= ''
+36FB .START (2020-03-13 07:57:14) phpCAS-1.3.8 ****************** [CAS.php:475]
+36FB .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+36FB .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+36FB .|    |    Session is not authenticated [Client.php:938]
+36FB .|    <= ''
+36FB .<= ''
+36FB .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+36FB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+36FB .<= ''
+DAB1 .START (2020-03-13 07:57:28) phpCAS-1.3.8 ****************** [CAS.php:475]
+DAB1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+DAB1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+DAB1 .|    |    Session is not authenticated [Client.php:938]
+DAB1 .|    <= ''
+DAB1 .<= ''
+DAB1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+DAB1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DAB1 .<= ''
