@@ -394,3 +394,33 @@ DAB1 .<= ''
 DAB1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
 DAB1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
 DAB1 .<= ''
+BF86 .START (2020-03-13 08:08:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+BF86 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+BF86 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+BF86 .|    |    Starting a new session 9uib9kdl0r7se6fthfcpm0m31l [Client.php:932]
+BF86 .|    |    Session is not authenticated [Client.php:938]
+BF86 .|    <= ''
+BF86 .<= ''
+BF86 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+BF86 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BF86 .<= ''
+4E7D .START (2020-03-13 08:09:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+4E7D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+4E7D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+4E7D .|    |    Starting a new session 9uib9kdl0r7se6fthfcpm0m31l [Client.php:932]
+4E7D .|    |    Session is not authenticated [Client.php:938]
+4E7D .|    <= ''
+4E7D .<= ''
+4E7D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+4E7D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+4E7D .<= ''
+160D .START (2020-03-13 08:09:43) phpCAS-1.3.8 ****************** [CAS.php:475]
+160D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+160D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+160D .|    |    Starting a new session 9uib9kdl0r7se6fthfcpm0m31l [Client.php:932]
+160D .|    |    Session is not authenticated [Client.php:938]
+160D .|    <= ''
+160D .<= ''
+160D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+160D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+160D .<= ''
