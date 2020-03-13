@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => Config::DB_USERNAME,
 	'password' => Config::DB_PASSWORD,
 	'database' => Config::DB_NAME,
-	'dbdriver' => 'sqlite3',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
