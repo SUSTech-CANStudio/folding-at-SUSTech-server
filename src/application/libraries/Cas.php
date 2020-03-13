@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-require_once Config::CAS_SRC . '/CAS.php';
+require_once Config::VENDOR_CAS_SOURCE . '/CAS.php';
 class Cas {
     /**
      * CodeIgniter Instance
