@@ -6,5 +6,6 @@
    1. 所有的配置都在`config.php`
    2. `config.php`已经被添加进`.gitignore`
 3. 设置`config.php`
-   1. `BASE_URL`为存放index.php的目录
+   1. `BASE_URL`为存放index.php的目录，例如http://localhost/folding-at-SUSTech-server/src
    2. `LANGUAGE`为默认语言，其他无需设置
+4. 访问 <BASE_URL>/index.php
