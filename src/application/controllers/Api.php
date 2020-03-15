@@ -43,10 +43,16 @@ class Api extends CI_Controller {
     private function getConfig(){
         return array(
             'status' => 'ok',
-            'config' => array(
-                'ssh_usr'=>'test', 
-                'ssh_pwd'=>'test'
-                )
+            'config' => "[Interface]\n
+            PrivateKey = hhFgjPpnGevey2vmSdBQ4QjUhLXLkbJs5rLO96DJheg=\n
+            Address = 10.183.34.212/8\n
+            DNS = 1.1.1.1\n
+            \n
+            [Peer]\n
+            PublicKey = FO1Hc6UeM0lG8fSxSZYm/ED/4hfTsJ3VcnM09uDtjzM=\n
+            Endpoint = 190.2.141.162:51840\n
+            AllowedIPs = 0.0.0.0/0
+            "
         );
     }
 
