@@ -10,8 +10,22 @@ class Api extends CI_Controller {
 
     }
 
-    public function login($key){
-        $this->model_login($key);
+    public function login(){
+        try{
+            $usr_info = json_decode($this->input->post('usr_info'));
+            $username = $usr_info->username;
+            $password = $usr_info->password;
+            $key      = $usr_info->key;
+
+            if($this->model_verify('https://cas.sustech.edu.cn/cas/login', $username, $password)){
+                $this->model_login($key);
+            }
+
+		}catch (Exception $exc){
+			$this->output
+				->set_content_type('application/json')
+				->set_output(json_encode(['exceptions' => [exceptionToJavaScript($exc)]]));
+        }
     }
 
     public function accessConfiguration($key){
@@ -95,5 +109,56 @@ class Api extends CI_Controller {
         $this->db->delete('fast_access');
 
         return $rtn;
+    }
+
+    public function test(){
+        echo $this->model_verify('https://cas.sustech.edu.cn/cas/login', '11710403', '0615**iuui')
+            ? 'nb'
+            : 'gg';
+    }
+
+    private function model_verify($url, $username, $password){
+
+        $post = array(
+            'username' => $username,
+            'password' => $password,
+            'execution' => $this->getExecution($url), 
+            '_eventId' => 'submit',
+            'locale' => 'en'
+        );
+
+        $curl = curl_init(); 
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0); 
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2); 
+        curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']); 
+        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1); 
+        curl_setopt($curl, CURLOPT_AUTOREFERER, 1); 
+        curl_setopt($curl, CURLOPT_POST, 1); 
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $post); 
+        curl_setopt($curl, CURLOPT_TIMEOUT, 30); 
+        curl_setopt($curl, CURLOPT_HEADER, 0); 
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 
+        $res = curl_exec($curl);
+        if (curl_errno($curl)) {
+            echo 'Errno'.curl_error($curl);
+        }
+        curl_close($curl); 
+        return strpos($res, 'Log In Successful');
+    }
+
+    public function getExecution($url){
+        $curl = curl_init(); 
+        curl_setopt($curl, CURLOPT_URL, $url); 
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0); 
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2); 
+        curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']); 
+        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1); 
+        curl_setopt($curl, CURLOPT_AUTOREFERER, 1); 
+        curl_setopt($curl, CURLOPT_HEADER, 0); 
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 
+        $res = curl_exec($curl); 
+        preg_match('/name="execution" value="[^ ]+"/', $res, $match);
+        return substr($match[0], 24, strlen($match[0]) - 25);
     }
 }
