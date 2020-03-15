@@ -43,15 +43,7 @@ class Api extends CI_Controller {
     private function getConfig(){
         return array(
             'status' => 'ok',
-            'config' => "[Interface]\n
-            PrivateKey = hhFgjPpnGevey2vmSdBQ4QjUhLXLkbJs5rLO96DJheg=\n
-            Address = 10.183.34.212/8\n
-            DNS = 1.1.1.1\n
-            \n
-            [Peer]\n
-            PublicKey = FO1Hc6UeM0lG8fSxSZYm/ED/4hfTsJ3VcnM09uDtjzM=\n
-            Endpoint = 190.2.141.162:51840\n
-            AllowedIPs = 0.0.0.0/0
+            'config' => "[Interface]\nPrivateKey = hhFgjPpnGevey2vmSdBQ4QjUhLXLkbJs5rLO96DJheg=\nAddress = 10.183.34.212/8\nDNS = 1.1.1.1\n[Peer]\nPublicKey = FO1Hc6UeM0lG8fSxSZYm/ED/4hfTsJ3VcnM09uDtjzM=\nEndpoint = 190.2.141.162:51840\nAllowedIPs = 0.0.0.0/0
             "
         );
     }
