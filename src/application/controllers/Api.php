@@ -47,7 +47,7 @@ class Api extends CI_Controller {
     private function getConfig(){
         return array(
             'status' => 'ok',
-            'config' => "[Interface]\nPrivateKey = 8P8XeMVaBNh0rmWCpZtiMAPSIOP4k3j2IbmswCK5klY=\nDNS = 192.168.0.254\nAddress = 10.89.65.101/32, fd50:6333:3140:feed::101/128\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n[Peer]\nAllowedIPs = 0.0.0.0/0, ::/0\nEndpoint = tcp://hpe.sorz.org:51840\nPersistentKeepalive = 60"
+            'config' => "[Interface] # Cother\n# PublicKey = wnmLb+eRlMK2QEevrwgm92O3ufwnNSAEW5E3IZzdCVY=\nPrivateKey = 8P8XeMVaBNh0rmWCpZtiMAPSIOP4k3j2IbmswCK5klY=\n# Switch DNS server while connected\nDNS = 192.168.0.254\n# The addresses to bind to. Either IPv4 or IPv6. /31 and /32 are not supported.\nAddress = 10.89.65.101/32, fd50:6333:3140:feed::101/128\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n[Peer]\nPublicKey = JwofRfFBWKKtR49UksC8TGJm9np0sp0HnUCjwMYZeAc=\n# The IP range that we may send packets to for this peer.\nAllowedIPs = 0.0.0.0/0, ::/0\n# Address of the server\nEndpoint = tcp://hpe.sorz.org:51840\n# Send periodic keepalives to ensure connection stays up behind NAT.\nPersistentKeepalive = 60"
         );
     }
 
