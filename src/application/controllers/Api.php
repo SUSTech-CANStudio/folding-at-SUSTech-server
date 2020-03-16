@@ -47,7 +47,7 @@ class Api extends CI_Controller {
     private function getConfig(){
         return array(
             'status' => 'ok',
-            'config' => "[Interface]\nPrivateKey = hhFgjPpnGevey2vmSdBQ4QjUhLXLkbJs5rLO96DJheg=\nAddress = 10.183.34.212/8\nDNS = 1.1.1.1\n[Peer]\nPublicKey = FO1Hc6UeM0lG8fSxSZYm/ED/4hfTsJ3VcnM09uDtjzM=\nEndpoint = 190.2.141.162:51840\nAllowedIPs = 0.0.0.0/0"
+            'config' => "[Interface] # Cother\nPrivateKey = 8P8XeMVaBNh0rmWCpZtiMAPSIOP4k3j2IbmswCK5klY=\nDNS = 192.168.0.254 supported.\nAddress = 10.89.65.101/32, fd50:6333:3140:feed::101/128\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n[Peer]\nPublicKey = JwofRfFBWKKtR49UksC8TGJm9np0sp0HnUCjwMYZeAc=\nAllowedIPs = 0.0.0.0/0, ::/0\nEndpoint = tcp://hpe.sorz.org:51840\nPersistentKeepalive = 60"
         );
     }
 
