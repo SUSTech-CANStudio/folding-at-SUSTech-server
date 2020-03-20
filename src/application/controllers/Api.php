@@ -166,22 +166,24 @@ class Api extends CI_Controller {
             ->row_array()['cnt'] == '0';
         
         if($not_register){
+            
+            $key_pair = $this->_genKeyPair();
 
             $min_ip_int = ip2long('10.128.0.1');
             $data = array(
                 'sid' => $sid,
-                'ip' => 0
+                'ip' => 0,
+                'p6' => $key_pair['prikey']
             );
             $this->db->insert('ip_allocate', $data);
             $db_id = $this->db->insert_id();
             $ip_int = $min_ip_int + $db_id;
 
-            $key_pair = $this->_genKeyPair();
+            
             $this->_appendConfig(long2ip($ip_int), $key_pair['pubkey']);
 
             $data = array(
-                'ip' => $ip_int,
-                'p6' => $key_pair['prikey']
+                'ip' => $ip_int
             );
 
             $this->db->where('sid', $sid);
