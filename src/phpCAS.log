@@ -424,3 +424,1513 @@ BF86 .<= ''
 160D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
 160D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
 160D .<= ''
+7C83 .START (2020-03-15 03:59:44) phpCAS-1.3.8 ****************** [CAS.php:475]
+7C83 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7C83 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7C83 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+7C83 .|    |    Session is not authenticated [Client.php:938]
+7C83 .|    <= ''
+7C83 .<= ''
+7C83 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7C83 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7C83 .<= ''
+1D13 .START (2020-03-15 04:00:09) phpCAS-1.3.8 ****************** [CAS.php:475]
+1D13 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1D13 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1D13 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+1D13 .|    |    Session is not authenticated [Client.php:938]
+1D13 .|    <= ''
+1D13 .<= ''
+1D13 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1D13 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1D13 .<= ''
+1EEE .START (2020-03-15 04:01:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+1EEE .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1EEE .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1EEE .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+1EEE .|    |    Session is not authenticated [Client.php:938]
+1EEE .|    <= ''
+1EEE .<= ''
+1EEE .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1EEE .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1EEE .<= ''
+6FBC .START (2020-03-15 04:01:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+6FBC .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6FBC .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6FBC .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+6FBC .|    |    Session is not authenticated [Client.php:938]
+6FBC .|    <= ''
+6FBC .<= ''
+6FBC .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6FBC .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6FBC .<= ''
+D299 .START (2020-03-15 04:01:52) phpCAS-1.3.8 ****************** [CAS.php:475]
+D299 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D299 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D299 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+D299 .|    |    Session is not authenticated [Client.php:938]
+D299 .|    <= ''
+D299 .<= ''
+D299 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D299 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D299 .<= ''
+7C55 .START (2020-03-15 04:04:05) phpCAS-1.3.8 ****************** [CAS.php:475]
+7C55 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7C55 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7C55 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+7C55 .|    |    Session is not authenticated [Client.php:938]
+7C55 .|    <= ''
+7C55 .<= ''
+7C55 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7C55 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7C55 .<= ''
+EEF2 .START (2020-03-15 04:04:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+EEF2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+EEF2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+EEF2 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+EEF2 .|    |    Session is not authenticated [Client.php:938]
+EEF2 .|    <= ''
+EEF2 .<= ''
+EEF2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+EEF2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EEF2 .<= ''
+B37D .START (2020-03-15 04:04:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+B37D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B37D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B37D .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+B37D .|    |    Session is not authenticated [Client.php:938]
+B37D .|    <= ''
+B37D .<= ''
+B37D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B37D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B37D .<= ''
+7084 .START (2020-03-15 04:04:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+7084 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7084 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7084 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+7084 .|    |    Session is not authenticated [Client.php:938]
+7084 .|    <= ''
+7084 .<= ''
+7084 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7084 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7084 .<= ''
+5995 .START (2020-03-15 04:04:14) phpCAS-1.3.8 ****************** [CAS.php:475]
+5995 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+5995 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+5995 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+5995 .|    |    Session is not authenticated [Client.php:938]
+5995 .|    <= ''
+5995 .<= ''
+5995 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+5995 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5995 .<= ''
+2C60 .START (2020-03-15 04:04:15) phpCAS-1.3.8 ****************** [CAS.php:475]
+2C60 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+2C60 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+2C60 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+2C60 .|    |    Session is not authenticated [Client.php:938]
+2C60 .|    <= ''
+2C60 .<= ''
+2C60 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+2C60 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2C60 .<= ''
+AF39 .START (2020-03-15 04:04:16) phpCAS-1.3.8 ****************** [CAS.php:475]
+AF39 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+AF39 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+AF39 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+AF39 .|    |    Session is not authenticated [Client.php:938]
+AF39 .|    <= ''
+AF39 .<= ''
+AF39 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+AF39 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AF39 .<= ''
+24C9 .START (2020-03-15 04:04:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+24C9 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+24C9 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+24C9 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+24C9 .|    |    Session is not authenticated [Client.php:938]
+24C9 .|    <= ''
+24C9 .<= ''
+24C9 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+24C9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+24C9 .<= ''
+D347 .START (2020-03-15 04:04:22) phpCAS-1.3.8 ****************** [CAS.php:475]
+D347 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D347 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D347 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+D347 .|    |    Session is not authenticated [Client.php:938]
+D347 .|    <= ''
+D347 .<= ''
+D347 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D347 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D347 .<= ''
+A427 .START (2020-03-15 04:04:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+A427 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+A427 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+A427 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+A427 .|    |    Session is not authenticated [Client.php:938]
+A427 .|    <= ''
+A427 .<= ''
+A427 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+A427 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A427 .<= ''
+31A8 .START (2020-03-15 04:05:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+31A8 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+31A8 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+31A8 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+31A8 .|    |    Session is not authenticated [Client.php:938]
+31A8 .|    <= ''
+31A8 .<= ''
+31A8 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+31A8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+31A8 .<= ''
+613D .START (2020-03-15 04:05:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+613D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+613D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+613D .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+613D .|    |    Session is not authenticated [Client.php:938]
+613D .|    <= ''
+613D .<= ''
+613D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+613D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+613D .<= ''
+8B89 .START (2020-03-15 04:05:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+8B89 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8B89 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8B89 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+8B89 .|    |    Session is not authenticated [Client.php:938]
+8B89 .|    <= ''
+8B89 .<= ''
+8B89 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8B89 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8B89 .<= ''
+5BD9 .START (2020-03-15 04:06:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+5BD9 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+5BD9 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+5BD9 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+5BD9 .|    |    Session is not authenticated [Client.php:938]
+5BD9 .|    <= ''
+5BD9 .<= ''
+5BD9 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+5BD9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5BD9 .<= ''
+0EB7 .START (2020-03-15 04:06:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+0EB7 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0EB7 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0EB7 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+0EB7 .|    |    Session is not authenticated [Client.php:938]
+0EB7 .|    <= ''
+0EB7 .<= ''
+0EB7 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0EB7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0EB7 .<= ''
+098A .START (2020-03-15 04:06:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+098A .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+098A .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+098A .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+098A .|    |    Session is not authenticated [Client.php:938]
+098A .|    <= ''
+098A .<= ''
+098A .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+098A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+098A .<= ''
+96DE .START (2020-03-15 04:06:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+96DE .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+96DE .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+96DE .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+96DE .|    |    Session is not authenticated [Client.php:938]
+96DE .|    <= ''
+96DE .<= ''
+96DE .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+96DE .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+96DE .<= ''
+468F .START (2020-03-15 04:06:51) phpCAS-1.3.8 ****************** [CAS.php:475]
+468F .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+468F .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+468F .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+468F .|    |    Session is not authenticated [Client.php:938]
+468F .|    <= ''
+468F .<= ''
+468F .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+468F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+468F .<= ''
+C3BC .START (2020-03-15 04:06:57) phpCAS-1.3.8 ****************** [CAS.php:475]
+C3BC .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+C3BC .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+C3BC .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+C3BC .|    |    Session is not authenticated [Client.php:938]
+C3BC .|    <= ''
+C3BC .<= ''
+C3BC .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+C3BC .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C3BC .<= ''
+BE73 .START (2020-03-15 04:07:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+BE73 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+BE73 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+BE73 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+BE73 .|    |    Session is not authenticated [Client.php:938]
+BE73 .|    <= ''
+BE73 .<= ''
+BE73 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+BE73 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BE73 .<= ''
+F47F .START (2020-03-15 04:07:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+F47F .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F47F .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F47F .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+F47F .|    |    Session is not authenticated [Client.php:938]
+F47F .|    <= ''
+F47F .<= ''
+F47F .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F47F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F47F .<= ''
+6AA2 .START (2020-03-15 04:09:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+6AA2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6AA2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6AA2 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+6AA2 .|    |    Session is not authenticated [Client.php:938]
+6AA2 .|    <= ''
+6AA2 .<= ''
+6AA2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6AA2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6AA2 .<= ''
+8EAD .START (2020-03-15 04:09:38) phpCAS-1.3.8 ****************** [CAS.php:475]
+8EAD .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8EAD .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8EAD .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+8EAD .|    |    Session is not authenticated [Client.php:938]
+8EAD .|    <= ''
+8EAD .<= ''
+8EAD .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8EAD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8EAD .<= ''
+E3DE .START (2020-03-15 04:09:38) phpCAS-1.3.8 ****************** [CAS.php:475]
+E3DE .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+E3DE .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+E3DE .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+E3DE .|    |    Session is not authenticated [Client.php:938]
+E3DE .|    <= ''
+E3DE .<= ''
+E3DE .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+E3DE .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E3DE .<= ''
+CD3E .START (2020-03-15 04:09:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+CD3E .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CD3E .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CD3E .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+CD3E .|    |    Session is not authenticated [Client.php:938]
+CD3E .|    <= ''
+CD3E .<= ''
+CD3E .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CD3E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CD3E .<= ''
+6D70 .START (2020-03-15 04:09:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+6D70 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6D70 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6D70 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+6D70 .|    |    Session is not authenticated [Client.php:938]
+6D70 .|    <= ''
+6D70 .<= ''
+6D70 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6D70 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6D70 .<= ''
+CE95 .START (2020-03-15 04:09:40) phpCAS-1.3.8 ****************** [CAS.php:475]
+CE95 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CE95 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CE95 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+CE95 .|    |    Session is not authenticated [Client.php:938]
+CE95 .|    <= ''
+CE95 .<= ''
+CE95 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CE95 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CE95 .<= ''
+7665 .START (2020-03-15 04:09:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+7665 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7665 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7665 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+7665 .|    |    Session is not authenticated [Client.php:938]
+7665 .|    <= ''
+7665 .<= ''
+7665 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7665 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7665 .<= ''
+306D .START (2020-03-15 04:09:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+306D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+306D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+306D .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+306D .|    |    Session is not authenticated [Client.php:938]
+306D .|    <= ''
+306D .<= ''
+306D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+306D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+306D .<= ''
+7BEB .START (2020-03-15 04:09:42) phpCAS-1.3.8 ****************** [CAS.php:475]
+7BEB .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7BEB .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7BEB .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+7BEB .|    |    Session is not authenticated [Client.php:938]
+7BEB .|    <= ''
+7BEB .<= ''
+7BEB .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7BEB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7BEB .<= ''
+A044 .START (2020-03-15 04:14:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+A044 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+A044 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+A044 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+A044 .|    |    Session is not authenticated [Client.php:938]
+A044 .|    <= ''
+A044 .<= ''
+A044 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+A044 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A044 .<= ''
+9634 .START (2020-03-15 04:23:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+9634 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9634 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9634 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+9634 .|    |    Session is not authenticated [Client.php:938]
+9634 .|    <= ''
+9634 .<= ''
+9634 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9634 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9634 .<= ''
+DCA1 .START (2020-03-15 04:43:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+DCA1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+DCA1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+DCA1 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+DCA1 .|    |    Session is not authenticated [Client.php:938]
+DCA1 .|    <= ''
+DCA1 .<= ''
+DCA1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+DCA1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DCA1 .<= ''
+F66B .START (2020-03-15 04:44:53) phpCAS-1.3.8 ****************** [CAS.php:475]
+F66B .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F66B .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F66B .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+F66B .|    |    Session is not authenticated [Client.php:938]
+F66B .|    <= ''
+F66B .<= ''
+F66B .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F66B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F66B .<= ''
+2344 .START (2020-03-15 04:45:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+2344 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+2344 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+2344 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+2344 .|    |    Session is not authenticated [Client.php:938]
+2344 .|    <= ''
+2344 .<= ''
+2344 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+2344 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2344 .<= ''
+22A8 .START (2020-03-15 04:45:28) phpCAS-1.3.8 ****************** [CAS.php:475]
+22A8 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+22A8 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+22A8 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+22A8 .|    |    Session is not authenticated [Client.php:938]
+22A8 .|    <= ''
+22A8 .<= ''
+22A8 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+22A8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+22A8 .<= ''
+E3E2 .START (2020-03-15 04:45:40) phpCAS-1.3.8 ****************** [CAS.php:475]
+E3E2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+E3E2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+E3E2 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+E3E2 .|    |    Session is not authenticated [Client.php:938]
+E3E2 .|    <= ''
+E3E2 .<= ''
+E3E2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+E3E2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E3E2 .<= ''
+1AA0 .START (2020-03-15 04:45:44) phpCAS-1.3.8 ****************** [CAS.php:475]
+1AA0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1AA0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1AA0 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+1AA0 .|    |    Session is not authenticated [Client.php:938]
+1AA0 .|    <= ''
+1AA0 .<= ''
+1AA0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1AA0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1AA0 .<= ''
+D4E8 .START (2020-03-15 04:46:22) phpCAS-1.3.8 ****************** [CAS.php:475]
+D4E8 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D4E8 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D4E8 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+D4E8 .|    |    Session is not authenticated [Client.php:938]
+D4E8 .|    <= ''
+D4E8 .<= ''
+D4E8 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D4E8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D4E8 .<= ''
+290B .START (2020-03-15 04:46:25) phpCAS-1.3.8 ****************** [CAS.php:475]
+290B .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+290B .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+290B .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+290B .|    |    Session is not authenticated [Client.php:938]
+290B .|    <= ''
+290B .<= ''
+290B .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+290B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+290B .<= ''
+AFDA .START (2020-03-15 04:46:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+AFDA .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+AFDA .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+AFDA .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+AFDA .|    |    Session is not authenticated [Client.php:938]
+AFDA .|    <= ''
+AFDA .<= ''
+AFDA .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+AFDA .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AFDA .<= ''
+630A .START (2020-03-15 04:47:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+630A .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+630A .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+630A .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+630A .|    |    Session is not authenticated [Client.php:938]
+630A .|    <= ''
+630A .<= ''
+630A .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+630A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+630A .<= ''
+CE20 .START (2020-03-15 04:48:48) phpCAS-1.3.8 ****************** [CAS.php:475]
+CE20 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CE20 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CE20 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+CE20 .|    |    Session is not authenticated [Client.php:938]
+CE20 .|    <= ''
+CE20 .<= ''
+CE20 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CE20 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CE20 .<= ''
+CFDB .START (2020-03-15 04:52:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+CFDB .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CFDB .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CFDB .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+CFDB .|    |    Session is not authenticated [Client.php:938]
+CFDB .|    <= ''
+CFDB .<= ''
+CFDB .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CFDB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CFDB .<= ''
+9BA4 .START (2020-03-15 04:53:44) phpCAS-1.3.8 ****************** [CAS.php:475]
+9BA4 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9BA4 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9BA4 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+9BA4 .|    |    Session is not authenticated [Client.php:938]
+9BA4 .|    <= ''
+9BA4 .<= ''
+9BA4 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9BA4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9BA4 .<= ''
+C6D2 .START (2020-03-15 04:53:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+C6D2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+C6D2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+C6D2 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+C6D2 .|    |    Session is not authenticated [Client.php:938]
+C6D2 .|    <= ''
+C6D2 .<= ''
+C6D2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+C6D2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C6D2 .<= ''
+A36C .START (2020-03-15 05:00:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+A36C .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+A36C .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+A36C .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+A36C .|    |    Session is not authenticated [Client.php:938]
+A36C .|    <= ''
+A36C .<= ''
+A36C .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+A36C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A36C .<= ''
+DE17 .START (2020-03-15 05:02:06) phpCAS-1.3.8 ****************** [CAS.php:475]
+DE17 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+DE17 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+DE17 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+DE17 .|    |    Session is not authenticated [Client.php:938]
+DE17 .|    <= ''
+DE17 .<= ''
+DE17 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+DE17 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DE17 .<= ''
+51F9 .START (2020-03-15 05:02:14) phpCAS-1.3.8 ****************** [CAS.php:475]
+51F9 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+51F9 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+51F9 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+51F9 .|    |    Session is not authenticated [Client.php:938]
+51F9 .|    <= ''
+51F9 .<= ''
+51F9 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+51F9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+51F9 .<= ''
+BCBF .START (2020-03-15 05:02:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+BCBF .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+BCBF .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+BCBF .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+BCBF .|    |    Session is not authenticated [Client.php:938]
+BCBF .|    <= ''
+BCBF .<= ''
+BCBF .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+BCBF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BCBF .<= ''
+1CDF .START (2020-03-15 05:02:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+1CDF .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1CDF .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1CDF .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+1CDF .|    |    Session is not authenticated [Client.php:938]
+1CDF .|    <= ''
+1CDF .<= ''
+1CDF .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1CDF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1CDF .<= ''
+B036 .START (2020-03-15 05:02:33) phpCAS-1.3.8 ****************** [CAS.php:475]
+B036 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B036 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B036 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+B036 .|    |    Session is not authenticated [Client.php:938]
+B036 .|    <= ''
+B036 .<= ''
+B036 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B036 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B036 .<= ''
+E0B2 .START (2020-03-15 05:02:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+E0B2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+E0B2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+E0B2 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+E0B2 .|    |    Session is not authenticated [Client.php:938]
+E0B2 .|    <= ''
+E0B2 .<= ''
+E0B2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+E0B2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E0B2 .<= ''
+8CF9 .START (2020-03-15 05:03:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+8CF9 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8CF9 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8CF9 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+8CF9 .|    |    Session is not authenticated [Client.php:938]
+8CF9 .|    <= ''
+8CF9 .<= ''
+8CF9 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8CF9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8CF9 .<= ''
+16C0 .START (2020-03-15 05:24:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+16C0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+16C0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+16C0 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+16C0 .|    |    Session is not authenticated [Client.php:938]
+16C0 .|    <= ''
+16C0 .<= ''
+16C0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+16C0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+16C0 .<= ''
+913D .START (2020-03-15 05:25:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+913D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+913D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+913D .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+913D .|    |    Session is not authenticated [Client.php:938]
+913D .|    <= ''
+913D .<= ''
+913D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+913D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+913D .<= ''
+7428 .START (2020-03-15 05:25:19) phpCAS-1.3.8 ****************** [CAS.php:475]
+7428 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7428 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7428 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+7428 .|    |    Session is not authenticated [Client.php:938]
+7428 .|    <= ''
+7428 .<= ''
+7428 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7428 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7428 .<= ''
+24E3 .START (2020-03-15 05:25:42) phpCAS-1.3.8 ****************** [CAS.php:475]
+24E3 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+24E3 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+24E3 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+24E3 .|    |    Session is not authenticated [Client.php:938]
+24E3 .|    <= ''
+24E3 .<= ''
+24E3 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+24E3 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+24E3 .<= ''
+60D8 .START (2020-03-15 05:26:40) phpCAS-1.3.8 ****************** [CAS.php:475]
+60D8 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+60D8 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+60D8 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+60D8 .|    |    Session is not authenticated [Client.php:938]
+60D8 .|    <= ''
+60D8 .<= ''
+60D8 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+60D8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+60D8 .<= ''
+87C4 .START (2020-03-15 05:26:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+87C4 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+87C4 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+87C4 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+87C4 .|    |    Session is not authenticated [Client.php:938]
+87C4 .|    <= ''
+87C4 .<= ''
+87C4 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+87C4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+87C4 .<= ''
+6695 .START (2020-03-15 05:27:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+6695 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6695 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6695 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+6695 .|    |    Session is not authenticated [Client.php:938]
+6695 .|    <= ''
+6695 .<= ''
+6695 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6695 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6695 .<= ''
+C2F2 .START (2020-03-15 05:27:16) phpCAS-1.3.8 ****************** [CAS.php:475]
+C2F2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+C2F2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+C2F2 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+C2F2 .|    |    Session is not authenticated [Client.php:938]
+C2F2 .|    <= ''
+C2F2 .<= ''
+C2F2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+C2F2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C2F2 .<= ''
+7C17 .START (2020-03-15 05:27:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+7C17 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7C17 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7C17 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+7C17 .|    |    Session is not authenticated [Client.php:938]
+7C17 .|    <= ''
+7C17 .<= ''
+7C17 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7C17 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7C17 .<= ''
+8A54 .START (2020-03-15 05:28:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+8A54 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8A54 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8A54 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+8A54 .|    |    Session is not authenticated [Client.php:938]
+8A54 .|    <= ''
+8A54 .<= ''
+8A54 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8A54 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8A54 .<= ''
+37F0 .START (2020-03-15 05:29:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+37F0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+37F0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+37F0 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+37F0 .|    |    Session is not authenticated [Client.php:938]
+37F0 .|    <= ''
+37F0 .<= ''
+37F0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+37F0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+37F0 .<= ''
+F393 .START (2020-03-15 05:29:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+F393 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F393 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F393 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+F393 .|    |    Session is not authenticated [Client.php:938]
+F393 .|    <= ''
+F393 .<= ''
+F393 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F393 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F393 .<= ''
+30E4 .START (2020-03-15 05:30:03) phpCAS-1.3.8 ****************** [CAS.php:475]
+30E4 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+30E4 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+30E4 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+30E4 .|    |    Session is not authenticated [Client.php:938]
+30E4 .|    <= ''
+30E4 .<= ''
+30E4 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+30E4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+30E4 .<= ''
+C76A .START (2020-03-15 05:30:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+C76A .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+C76A .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+C76A .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+C76A .|    |    Session is not authenticated [Client.php:938]
+C76A .|    <= ''
+C76A .<= ''
+C76A .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+C76A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C76A .<= ''
+B047 .START (2020-03-15 05:30:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+B047 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B047 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B047 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+B047 .|    |    Session is not authenticated [Client.php:938]
+B047 .|    <= ''
+B047 .<= ''
+B047 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B047 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B047 .<= ''
+BCD9 .START (2020-03-15 05:31:02) phpCAS-1.3.8 ****************** [CAS.php:475]
+BCD9 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+BCD9 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+BCD9 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+BCD9 .|    |    Session is not authenticated [Client.php:938]
+BCD9 .|    <= ''
+BCD9 .<= ''
+BCD9 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+BCD9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BCD9 .<= ''
+4FA0 .START (2020-03-15 05:32:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+4FA0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+4FA0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+4FA0 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+4FA0 .|    |    Session is not authenticated [Client.php:938]
+4FA0 .|    <= ''
+4FA0 .<= ''
+4FA0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+4FA0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+4FA0 .<= ''
+7B63 .START (2020-03-15 05:32:52) phpCAS-1.3.8 ****************** [CAS.php:475]
+7B63 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7B63 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7B63 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+7B63 .|    |    Session is not authenticated [Client.php:938]
+7B63 .|    <= ''
+7B63 .<= ''
+7B63 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7B63 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7B63 .<= ''
+1A0C .START (2020-03-15 05:33:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+1A0C .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1A0C .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1A0C .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+1A0C .|    |    Session is not authenticated [Client.php:938]
+1A0C .|    <= ''
+1A0C .<= ''
+1A0C .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1A0C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1A0C .<= ''
+970E .START (2020-03-15 05:34:02) phpCAS-1.3.8 ****************** [CAS.php:475]
+970E .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+970E .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+970E .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+970E .|    |    Session is not authenticated [Client.php:938]
+970E .|    <= ''
+970E .<= ''
+970E .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+970E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+970E .<= ''
+7CA2 .START (2020-03-15 05:34:08) phpCAS-1.3.8 ****************** [CAS.php:475]
+7CA2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7CA2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7CA2 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+7CA2 .|    |    Session is not authenticated [Client.php:938]
+7CA2 .|    <= ''
+7CA2 .<= ''
+7CA2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7CA2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7CA2 .<= ''
+D8C0 .START (2020-03-15 05:34:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+D8C0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D8C0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D8C0 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+D8C0 .|    |    Session is not authenticated [Client.php:938]
+D8C0 .|    <= ''
+D8C0 .<= ''
+D8C0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D8C0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D8C0 .<= ''
+D946 .START (2020-03-15 05:34:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+D946 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D946 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D946 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+D946 .|    |    Session is not authenticated [Client.php:938]
+D946 .|    <= ''
+D946 .<= ''
+D946 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D946 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D946 .<= ''
+7302 .START (2020-03-15 05:35:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+7302 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7302 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7302 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+7302 .|    |    Session is not authenticated [Client.php:938]
+7302 .|    <= ''
+7302 .<= ''
+7302 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7302 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7302 .<= ''
+F858 .START (2020-03-15 05:36:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+F858 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F858 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F858 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+F858 .|    |    Session is not authenticated [Client.php:938]
+F858 .|    <= ''
+F858 .<= ''
+F858 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F858 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F858 .<= ''
+6B60 .START (2020-03-15 05:37:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+6B60 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6B60 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6B60 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+6B60 .|    |    Session is not authenticated [Client.php:938]
+6B60 .|    <= ''
+6B60 .<= ''
+6B60 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6B60 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6B60 .<= ''
+B6BF .START (2020-03-15 05:37:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+B6BF .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B6BF .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B6BF .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+B6BF .|    |    Session is not authenticated [Client.php:938]
+B6BF .|    <= ''
+B6BF .<= ''
+B6BF .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B6BF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B6BF .<= ''
+5C58 .START (2020-03-15 05:38:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+5C58 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+5C58 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+5C58 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+5C58 .|    |    Session is not authenticated [Client.php:938]
+5C58 .|    <= ''
+5C58 .<= ''
+5C58 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+5C58 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5C58 .<= ''
+03BC .START (2020-03-15 05:38:38) phpCAS-1.3.8 ****************** [CAS.php:475]
+03BC .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+03BC .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+03BC .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+03BC .|    |    Session is not authenticated [Client.php:938]
+03BC .|    <= ''
+03BC .<= ''
+03BC .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+03BC .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+03BC .<= ''
+CB63 .START (2020-03-15 05:38:50) phpCAS-1.3.8 ****************** [CAS.php:475]
+CB63 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CB63 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CB63 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+CB63 .|    |    Session is not authenticated [Client.php:938]
+CB63 .|    <= ''
+CB63 .<= ''
+CB63 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CB63 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CB63 .<= ''
+B5F7 .START (2020-03-15 05:38:53) phpCAS-1.3.8 ****************** [CAS.php:475]
+B5F7 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B5F7 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B5F7 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+B5F7 .|    |    Session is not authenticated [Client.php:938]
+B5F7 .|    <= ''
+B5F7 .<= ''
+B5F7 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B5F7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B5F7 .<= ''
+9FF3 .START (2020-03-15 05:39:50) phpCAS-1.3.8 ****************** [CAS.php:475]
+9FF3 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9FF3 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9FF3 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+9FF3 .|    |    Session is not authenticated [Client.php:938]
+9FF3 .|    <= ''
+9FF3 .<= ''
+9FF3 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9FF3 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9FF3 .<= ''
+9E64 .START (2020-03-15 05:39:53) phpCAS-1.3.8 ****************** [CAS.php:475]
+9E64 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9E64 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9E64 .|    |    Starting a new session ak3vul9rv09tldpiq1hkvi1bv3 [Client.php:932]
+9E64 .|    |    Session is not authenticated [Client.php:938]
+9E64 .|    <= ''
+9E64 .<= ''
+9E64 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9E64 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9E64 .<= ''
+FEA1 .START (2020-03-15 05:54:02) phpCAS-1.3.8 ****************** [CAS.php:475]
+FEA1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+FEA1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+FEA1 .|    |    Starting a new session cubt5r11q9dc3qjimtin5a34ot [Client.php:932]
+FEA1 .|    |    Session is not authenticated [Client.php:938]
+FEA1 .|    <= ''
+FEA1 .<= ''
+FEA1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+FEA1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FEA1 .<= ''
+176B .START (2020-03-19 17:48:31) phpCAS-1.3.8 ****************** [CAS.php:475]
+176B .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+176B .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+176B .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+176B .|    |    Session is not authenticated [Client.php:938]
+176B .|    <= ''
+176B .<= ''
+176B .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+176B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+176B .<= ''
+74AD .START (2020-03-19 17:48:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+74AD .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+74AD .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+74AD .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+74AD .|    |    Session is not authenticated [Client.php:938]
+74AD .|    <= ''
+74AD .<= ''
+74AD .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+74AD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+74AD .<= ''
+B703 .START (2020-03-19 17:48:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+B703 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B703 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B703 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+B703 .|    |    Session is not authenticated [Client.php:938]
+B703 .|    <= ''
+B703 .<= ''
+B703 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B703 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B703 .<= ''
+1A70 .START (2020-03-19 17:53:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+1A70 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1A70 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1A70 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+1A70 .|    |    Session is not authenticated [Client.php:938]
+1A70 .|    <= ''
+1A70 .<= ''
+1A70 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1A70 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1A70 .<= ''
+975C .START (2020-03-19 17:53:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+975C .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+975C .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+975C .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+975C .|    |    Session is not authenticated [Client.php:938]
+975C .|    <= ''
+975C .<= ''
+975C .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+975C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+975C .<= ''
+5265 .START (2020-03-19 17:57:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+5265 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+5265 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+5265 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+5265 .|    |    Session is not authenticated [Client.php:938]
+5265 .|    <= ''
+5265 .<= ''
+5265 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+5265 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5265 .<= ''
+B570 .START (2020-03-19 17:57:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+B570 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B570 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B570 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+B570 .|    |    Session is not authenticated [Client.php:938]
+B570 .|    <= ''
+B570 .<= ''
+B570 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B570 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B570 .<= ''
+1A30 .START (2020-03-19 17:57:32) phpCAS-1.3.8 ****************** [CAS.php:475]
+1A30 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1A30 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1A30 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+1A30 .|    |    Session is not authenticated [Client.php:938]
+1A30 .|    <= ''
+1A30 .<= ''
+1A30 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1A30 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1A30 .<= ''
+E102 .START (2020-03-19 17:58:02) phpCAS-1.3.8 ****************** [CAS.php:475]
+E102 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+E102 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+E102 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+E102 .|    |    Session is not authenticated [Client.php:938]
+E102 .|    <= ''
+E102 .<= ''
+E102 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+E102 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E102 .<= ''
+0C89 .START (2020-03-19 17:59:58) phpCAS-1.3.8 ****************** [CAS.php:475]
+0C89 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0C89 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0C89 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+0C89 .|    |    Session is not authenticated [Client.php:938]
+0C89 .|    <= ''
+0C89 .<= ''
+0C89 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0C89 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0C89 .<= ''
+0FBB .START (2020-03-19 18:00:01) phpCAS-1.3.8 ****************** [CAS.php:475]
+0FBB .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0FBB .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0FBB .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+0FBB .|    |    Session is not authenticated [Client.php:938]
+0FBB .|    <= ''
+0FBB .<= ''
+0FBB .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0FBB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0FBB .<= ''
+F130 .START (2020-03-19 18:00:09) phpCAS-1.3.8 ****************** [CAS.php:475]
+F130 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F130 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F130 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+F130 .|    |    Session is not authenticated [Client.php:938]
+F130 .|    <= ''
+F130 .<= ''
+F130 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F130 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F130 .<= ''
+6817 .START (2020-03-19 18:00:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+6817 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6817 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6817 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+6817 .|    |    Session is not authenticated [Client.php:938]
+6817 .|    <= ''
+6817 .<= ''
+6817 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6817 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6817 .<= ''
+C2D4 .START (2020-03-19 18:24:44) phpCAS-1.3.8 ****************** [CAS.php:475]
+C2D4 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+C2D4 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+C2D4 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+C2D4 .|    |    Session is not authenticated [Client.php:938]
+C2D4 .|    <= ''
+C2D4 .<= ''
+C2D4 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+C2D4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C2D4 .<= ''
+EDC1 .START (2020-03-20 00:05:02) phpCAS-1.3.8 ****************** [CAS.php:475]
+EDC1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+EDC1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+EDC1 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+EDC1 .|    |    Session is not authenticated [Client.php:938]
+EDC1 .|    <= ''
+EDC1 .<= ''
+EDC1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+EDC1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EDC1 .<= ''
+0D13 .START (2020-03-20 00:26:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+0D13 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0D13 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0D13 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+0D13 .|    |    Session is not authenticated [Client.php:938]
+0D13 .|    <= ''
+0D13 .<= ''
+0D13 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0D13 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0D13 .<= ''
+1E95 .START (2020-03-20 00:26:49) phpCAS-1.3.8 ****************** [CAS.php:475]
+1E95 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1E95 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1E95 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+1E95 .|    |    Session is not authenticated [Client.php:938]
+1E95 .|    <= ''
+1E95 .<= ''
+1E95 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1E95 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1E95 .<= ''
+B55A .START (2020-03-20 00:26:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+B55A .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+B55A .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+B55A .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+B55A .|    |    Session is not authenticated [Client.php:938]
+B55A .|    <= ''
+B55A .<= ''
+B55A .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+B55A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+B55A .<= ''
+1B89 .START (2020-03-20 00:26:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+1B89 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1B89 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1B89 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+1B89 .|    |    Session is not authenticated [Client.php:938]
+1B89 .|    <= ''
+1B89 .<= ''
+1B89 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1B89 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1B89 .<= ''
+3AA0 .START (2020-03-20 00:26:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+3AA0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+3AA0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+3AA0 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+3AA0 .|    |    Session is not authenticated [Client.php:938]
+3AA0 .|    <= ''
+3AA0 .<= ''
+3AA0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+3AA0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3AA0 .<= ''
+450C .START (2020-03-20 00:26:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+450C .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+450C .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+450C .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+450C .|    |    Session is not authenticated [Client.php:938]
+450C .|    <= ''
+450C .<= ''
+450C .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+450C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+450C .<= ''
+8BF0 .START (2020-03-20 00:53:12) phpCAS-1.3.8 ****************** [CAS.php:475]
+8BF0 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8BF0 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8BF0 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+8BF0 .|    |    Session is not authenticated [Client.php:938]
+8BF0 .|    <= ''
+8BF0 .<= ''
+8BF0 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8BF0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8BF0 .<= ''
+CE15 .START (2020-03-20 00:53:42) phpCAS-1.3.8 ****************** [CAS.php:475]
+CE15 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+CE15 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+CE15 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+CE15 .|    |    Session is not authenticated [Client.php:938]
+CE15 .|    <= ''
+CE15 .<= ''
+CE15 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+CE15 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+CE15 .<= ''
+79BF .START (2020-03-20 00:53:54) phpCAS-1.3.8 ****************** [CAS.php:475]
+79BF .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+79BF .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+79BF .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+79BF .|    |    Session is not authenticated [Client.php:938]
+79BF .|    <= ''
+79BF .<= ''
+79BF .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+79BF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+79BF .<= ''
+D706 .START (2020-03-20 01:53:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+D706 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D706 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D706 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+D706 .|    |    Session is not authenticated [Client.php:938]
+D706 .|    <= ''
+D706 .<= ''
+D706 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D706 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D706 .<= ''
+0870 .START (2020-03-20 01:57:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+0870 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0870 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0870 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+0870 .|    |    Session is not authenticated [Client.php:938]
+0870 .|    <= ''
+0870 .<= ''
+0870 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0870 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0870 .<= ''
+4121 .START (2020-03-20 01:57:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+4121 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+4121 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+4121 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+4121 .|    |    Session is not authenticated [Client.php:938]
+4121 .|    <= ''
+4121 .<= ''
+4121 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+4121 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+4121 .<= ''
+5CC5 .START (2020-03-20 03:07:04) phpCAS-1.3.8 ****************** [CAS.php:475]
+5CC5 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+5CC5 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+5CC5 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+5CC5 .|    |    Session is not authenticated [Client.php:938]
+5CC5 .|    <= ''
+5CC5 .<= ''
+5CC5 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+5CC5 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5CC5 .<= ''
+6C58 .START (2020-03-20 03:07:14) phpCAS-1.3.8 ****************** [CAS.php:475]
+6C58 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6C58 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6C58 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+6C58 .|    |    Session is not authenticated [Client.php:938]
+6C58 .|    <= ''
+6C58 .<= ''
+6C58 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6C58 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6C58 .<= ''
+8E16 .START (2020-03-20 03:09:06) phpCAS-1.3.8 ****************** [CAS.php:475]
+8E16 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+8E16 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+8E16 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+8E16 .|    |    Session is not authenticated [Client.php:938]
+8E16 .|    <= ''
+8E16 .<= ''
+8E16 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+8E16 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8E16 .<= ''
+9755 .START (2020-03-20 03:09:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+9755 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9755 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9755 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+9755 .|    |    Session is not authenticated [Client.php:938]
+9755 .|    <= ''
+9755 .<= ''
+9755 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9755 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9755 .<= ''
+12C2 .START (2020-03-20 03:10:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+12C2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+12C2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+12C2 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+12C2 .|    |    Session is not authenticated [Client.php:938]
+12C2 .|    <= ''
+12C2 .<= ''
+12C2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+12C2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+12C2 .<= ''
+991F .START (2020-03-20 03:15:05) phpCAS-1.3.8 ****************** [CAS.php:475]
+991F .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+991F .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+991F .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+991F .|    |    Session is not authenticated [Client.php:938]
+991F .|    <= ''
+991F .<= ''
+991F .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+991F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+991F .<= ''
+EB00 .START (2020-03-20 03:28:05) phpCAS-1.3.8 ****************** [CAS.php:475]
+EB00 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+EB00 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+EB00 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+EB00 .|    |    Session is not authenticated [Client.php:938]
+EB00 .|    <= ''
+EB00 .<= ''
+EB00 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+EB00 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EB00 .<= ''
+AC77 .START (2020-03-20 03:34:34) phpCAS-1.3.8 ****************** [CAS.php:475]
+AC77 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+AC77 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+AC77 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+AC77 .|    |    Session is not authenticated [Client.php:938]
+AC77 .|    <= ''
+AC77 .<= ''
+AC77 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+AC77 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AC77 .<= ''
+7A93 .START (2020-03-20 03:34:40) phpCAS-1.3.8 ****************** [CAS.php:475]
+7A93 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7A93 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7A93 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+7A93 .|    |    Session is not authenticated [Client.php:938]
+7A93 .|    <= ''
+7A93 .<= ''
+7A93 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7A93 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7A93 .<= ''
+3794 .START (2020-03-20 03:38:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+3794 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+3794 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+3794 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+3794 .|    |    Session is not authenticated [Client.php:938]
+3794 .|    <= ''
+3794 .<= ''
+3794 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+3794 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3794 .<= ''
+9B05 .START (2020-03-20 03:39:19) phpCAS-1.3.8 ****************** [CAS.php:475]
+9B05 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9B05 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9B05 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+9B05 .|    |    Session is not authenticated [Client.php:938]
+9B05 .|    <= ''
+9B05 .<= ''
+9B05 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9B05 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9B05 .<= ''
+BCF5 .START (2020-03-20 03:40:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+BCF5 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+BCF5 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+BCF5 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+BCF5 .|    |    Session is not authenticated [Client.php:938]
+BCF5 .|    <= ''
+BCF5 .<= ''
+BCF5 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+BCF5 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+BCF5 .<= ''
+014B .START (2020-03-20 03:41:31) phpCAS-1.3.8 ****************** [CAS.php:475]
+014B .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+014B .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+014B .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+014B .|    |    Session is not authenticated [Client.php:938]
+014B .|    <= ''
+014B .<= ''
+014B .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+014B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+014B .<= ''
+9CDC .START (2020-03-20 03:42:01) phpCAS-1.3.8 ****************** [CAS.php:475]
+9CDC .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9CDC .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9CDC .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+9CDC .|    |    Session is not authenticated [Client.php:938]
+9CDC .|    <= ''
+9CDC .<= ''
+9CDC .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9CDC .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9CDC .<= ''
+004D .START (2020-03-20 03:42:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+004D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+004D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+004D .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+004D .|    |    Session is not authenticated [Client.php:938]
+004D .|    <= ''
+004D .<= ''
+004D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+004D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+004D .<= ''
+A17E .START (2020-03-20 03:45:17) phpCAS-1.3.8 ****************** [CAS.php:475]
+A17E .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+A17E .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+A17E .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+A17E .|    |    Session is not authenticated [Client.php:938]
+A17E .|    <= ''
+A17E .<= ''
+A17E .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+A17E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+A17E .<= ''
+28A4 .START (2020-03-20 03:45:42) phpCAS-1.3.8 ****************** [CAS.php:475]
+28A4 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+28A4 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+28A4 .|    |    Starting a new session cvdlrlmdo6r4c9lih2rtufah5u [Client.php:932]
+28A4 .|    |    Session is not authenticated [Client.php:938]
+28A4 .|    <= ''
+28A4 .<= ''
+28A4 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+28A4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+28A4 .<= ''
+D7AA .START (2020-03-20 03:46:05) phpCAS-1.3.8 ****************** [CAS.php:475]
+D7AA .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D7AA .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D7AA .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+D7AA .|    |    Session is not authenticated [Client.php:938]
+D7AA .|    <= ''
+D7AA .<= ''
+D7AA .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D7AA .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D7AA .<= ''
+7AB2 .START (2020-03-20 03:46:08) phpCAS-1.3.8 ****************** [CAS.php:475]
+7AB2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7AB2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7AB2 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+7AB2 .|    |    Session is not authenticated [Client.php:938]
+7AB2 .|    <= ''
+7AB2 .<= ''
+7AB2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7AB2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7AB2 .<= ''
+7191 .START (2020-03-20 03:46:15) phpCAS-1.3.8 ****************** [CAS.php:475]
+7191 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+7191 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+7191 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+7191 .|    |    Session is not authenticated [Client.php:938]
+7191 .|    <= ''
+7191 .<= ''
+7191 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+7191 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7191 .<= ''
+586D .START (2020-03-20 03:58:47) phpCAS-1.3.8 ****************** [CAS.php:475]
+586D .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+586D .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+586D .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+586D .|    |    Session is not authenticated [Client.php:938]
+586D .|    <= ''
+586D .<= ''
+586D .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+586D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+586D .<= ''
+0FE3 .START (2020-03-20 03:59:37) phpCAS-1.3.8 ****************** [CAS.php:475]
+0FE3 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+0FE3 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+0FE3 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+0FE3 .|    |    Session is not authenticated [Client.php:938]
+0FE3 .|    <= ''
+0FE3 .<= ''
+0FE3 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+0FE3 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0FE3 .<= ''
+9857 .START (2020-03-20 04:00:00) phpCAS-1.3.8 ****************** [CAS.php:475]
+9857 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+9857 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+9857 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+9857 .|    |    Session is not authenticated [Client.php:938]
+9857 .|    <= ''
+9857 .<= ''
+9857 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+9857 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9857 .<= ''
+783B .START (2020-03-20 04:04:48) phpCAS-1.3.8 ****************** [CAS.php:475]
+783B .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+783B .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+783B .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+783B .|    |    Session is not authenticated [Client.php:938]
+783B .|    <= ''
+783B .<= ''
+783B .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+783B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+783B .<= ''
+91D2 .START (2020-03-20 04:05:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+91D2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+91D2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+91D2 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+91D2 .|    |    Session is not authenticated [Client.php:938]
+91D2 .|    <= ''
+91D2 .<= ''
+91D2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+91D2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+91D2 .<= ''
+F92A .START (2020-03-20 04:05:21) phpCAS-1.3.8 ****************** [CAS.php:475]
+F92A .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+F92A .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+F92A .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+F92A .|    |    Session is not authenticated [Client.php:938]
+F92A .|    <= ''
+F92A .<= ''
+F92A .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+F92A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F92A .<= ''
+6949 .START (2020-03-20 04:05:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+6949 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+6949 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+6949 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+6949 .|    |    Session is not authenticated [Client.php:938]
+6949 .|    <= ''
+6949 .<= ''
+6949 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+6949 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6949 .<= ''
+D6F2 .START (2020-03-20 04:05:24) phpCAS-1.3.8 ****************** [CAS.php:475]
+D6F2 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+D6F2 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+D6F2 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+D6F2 .|    |    Session is not authenticated [Client.php:938]
+D6F2 .|    <= ''
+D6F2 .<= ''
+D6F2 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+D6F2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+D6F2 .<= ''
+1261 .START (2020-03-20 04:05:26) phpCAS-1.3.8 ****************** [CAS.php:475]
+1261 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+1261 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+1261 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+1261 .|    |    Session is not authenticated [Client.php:938]
+1261 .|    <= ''
+1261 .<= ''
+1261 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+1261 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1261 .<= ''
+13C1 .START (2020-03-20 04:05:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+13C1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+13C1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+13C1 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+13C1 .|    |    Session is not authenticated [Client.php:938]
+13C1 .|    <= ''
+13C1 .<= ''
+13C1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+13C1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+13C1 .<= ''
+3CB1 .START (2020-03-20 04:10:59) phpCAS-1.3.8 ****************** [CAS.php:475]
+3CB1 .=> phpCAS::client('2.0', 'cas.sustech.edu.cn', 443, '/cas', false) [Cas.php:24]
+3CB1 .|    => CAS_Client::__construct('2.0', false, 'cas.sustech.edu.cn', 443, '/cas', false) [CAS.php:365]
+3CB1 .|    |    Starting a new session rb9gb02bft6ak4h7fc1sfqjnuv [Client.php:932]
+3CB1 .|    |    Session is not authenticated [Client.php:938]
+3CB1 .|    <= ''
+3CB1 .<= ''
+3CB1 .=> phpCAS::setNoCasServerValidation() [Cas.php:26]
+3CB1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3CB1 .<= ''

@@ -1,5 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Api extends CI_Controller {
 
@@ -15,14 +14,16 @@ class Api extends CI_Controller {
             $usr_info = json_decode($this->input->post('usr_info'));
             $username = $usr_info->username;
             $password = $usr_info->password;
-            $key      = $usr_info->key;
 
             if($this->model_verify('https://cas.sustech.edu.cn/cas/login', $username, $password)){
-                $this->model_login($key);
+                $this->model_login($username);
+                $this->output
+                    ->set_content_type('application/json')
+                    ->set_output(json_encode(array('status'=>'ok')));
             }else{
                 $this->output
-				->set_content_type('application/json')
-				->set_output(json_encode(array("status"=>"wrongpwd")));
+                    ->set_content_type('application/json')
+                    ->set_output(json_encode(array('status'=>'wrongpwd')));
             }
 
 		}catch (Exception $exc){
@@ -32,23 +33,104 @@ class Api extends CI_Controller {
         }
     }
 
-    public function accessConfiguration($key){
-        if($this->model_accessConfiguration($key)){
-            $this->output
-                ->set_content_type('application/json')
-                ->set_output(json_encode($this->getConfig()), TRUE);
-        }else{
-            $this->output
-                ->set_content_type('application/json')
-                ->set_output(json_encode(array('status'=>'incorrect or outdated key')), TRUE);
+    /**
+     * ip          := model_getIp
+     * private_key := _genKeyPair()['prikey']
+     * public_key  := _genKeyPair()['pubkey']
+     * 
+     * send private_key and ip to the client
+     * append public key and ip to tunsafe config
+     * 
+     */
+    public function accessConfiguration(){
+
+        try{
+            
+            $usr_info = json_decode($this->input->post('usr_info'));
+            $username = $usr_info->username;
+            $password = $usr_info->password;
+            $sid = $username;
+
+            if(!$this->model_verify('https://cas.sustech.edu.cn/cas/login', $username, $password)){
+                $this->output
+				->set_content_type('application/json')
+                ->set_output(json_encode(array("status"=>"wrong password or username")));
+                return;
+            }
+
+            $key_pair = $this->_genKeyPair();
+            $client_ip = $this->model_getIp($sid);
+
+            if($client_ip){
+                $this->_appendConfig($client_ip, $key_pair['pubkey']);
+            
+                $this->output
+                        ->set_content_type('application/json')
+                        ->set_output(json_encode($this->_getConfig($client_ip, $key_pair['prikey'])), TRUE);
+            }else{
+                $this->output
+				->set_content_type('application/json')
+				->set_output(json_encode(array("status"=>"user $sid is not registered to the server yet.")));
+            }
+
+        }catch (Exception $exc){
+			$this->output
+				->set_content_type('application/json')
+				->set_output(json_encode(['exceptions' => [exceptionToJavaScript($exc)]]));
         }
     }
 
-    private function getConfig(){
+    private function _getConfig($client_ip, $privateKey){
+
         return array(
             'status' => 'ok',
-            'config' => "[Interface] # Cother\n# PublicKey = wnmLb+eRlMK2QEevrwgm92O3ufwnNSAEW5E3IZzdCVY=\nPrivateKey = 8P8XeMVaBNh0rmWCpZtiMAPSIOP4k3j2IbmswCK5klY=\n# Switch DNS server while connected\nDNS = 192.168.0.254\n# The addresses to bind to. Either IPv4 or IPv6. /31 and /32 are not supported.\nAddress = 10.89.65.101/32, fd50:6333:3140:feed::101/128\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n[Peer]\nPublicKey = JwofRfFBWKKtR49UksC8TGJm9np0sp0HnUCjwMYZeAc=\n# The IP range that we may send packets to for this peer.\nAllowedIPs = 0.0.0.0/0, ::/0\n# Address of the server\nEndpoint = tcp://hpe.sorz.org:51840\n# Send periodic keepalives to ensure connection stays up behind NAT.\nPersistentKeepalive = 60"
+            'config' => "[Interface]\nPrivateKey = ".$privateKey."\nAddress = ".$client_ip."/32\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n\n[Peer]\nPublicKey = eNj6FEzWMnO6z1Js4iPIp936C07bXV6Ja2Pav5dnuWo=\nAllowedIPs = 172.31.11.240/32, 65.254.110.245/32, 18.218.241.186/32, 155.247.0.0/16, 128.252.0.0/24, 192.31.46.0/24, 140.163.0.0/16\nEndpoint = tcp://folding-acc.citric-acid.zzwcdn.com:51820\nPersistentKeepalive = 60\n"
         );
+    }
+
+    private function _appendConfig($client_ip, $client_pubkey){
+        $file = fopen('C:\\Users\\ASUS\\desktop\\test.conf', 'a'); // TODO /etc/tunsafe/folding.conf
+        $append_txt = "\n[Peer]\nPublicKey = ".$client_pubkey."\nAllowedIPs = ".$client_ip."/32\nPersistentKeepalive = 60";
+        fwrite($file, $append_txt);
+        fclose($file);
+    }
+
+    private function _genKeyPair(){
+
+        $key_pair = array();
+
+        // get private key
+
+        $fd = array(
+            0 => array("pipe", "r"),
+            1 => array("pipe", "w"),
+            2 => array("pipe", "w")
+        );
+        
+        $process = proc_open('tunsafe genkey', $fd, $pipes);
+        if(is_resource($process)){
+            fclose($pipes[0]);
+            $key_pair['prikey'] = stream_get_contents($pipes[1]);
+            fclose($pipes[1]);
+        }
+
+        // get public key
+
+        $fd2 = array(
+            0 => array("pipe", "r"),
+            1 => array("pipe", "w"),
+            2 => array("pipe", "w")
+        );
+
+        $process = proc_open('tunSafe pubkey', $fd2, $pipes2);
+        if(is_resource($process)){
+            fwrite($pipes2[0], $key_pair['prikey']);
+            fclose($pipes2[0]);
+            $key_pair['pubkey'] = stream_get_contents($pipes2[1]);
+            fclose($pipes2[1]);
+        }
+
+        return $key_pair;
     }
 
     public function update($code){
@@ -70,52 +152,51 @@ class Api extends CI_Controller {
         $this->load->view('general/update', $view);
     }
 
-    private function model_login($key){
-        $timestamp_datetime = new DateTime('NOW');
-        $timestamp = $timestamp_datetime->format('Y-m-d H:i:s');
-        $data = array(
-            'access_key' => $key,
-            'timestamp' => $timestamp 
-        );
-        $this->db->insert('fast_access', $data);
-    }
-
-    private function model_accessConfiguration($key){
-        $access = $this->db->select('
-            fast_access.timestamp AS time
-        ')
-        ->from('fast_access')
-        ->where('access_key', $key)
-        ->get()
-        ->row_array()['time'];
-
-        // the key is not correct
-        if($access == NULL){
-            return false;
+    private function model_getIp($sid){
+        
+        try{
+            $ip_int = $this->db->select('
+                ip_allocate.ip AS ip
+            ')
+            ->from('ip_allocate')
+            ->where('sid', $sid)
+            ->get()
+            ->row_array()['ip'];
+            return long2ip($ip_int);
+        }catch(Exception $e){
+            return FALSE;
         }
-
-        // calculate time diff
-        $access_datetime = new DateTime($access);
-        $now_datetime = new DateTime('NOW');
-        $interval = $access_datetime->diff($now_datetime);
-        $d_yea = $interval->format('%Y');
-        $d_mon = $interval->format('%m');
-        $d_day = $interval->format('%d');
-        $d_hrs = $interval->format('%H');
-        $d_min = $interval->format('%i');
-        // if time diff is within one min, return key
-        $rtn = $d_yea == 0 && $d_mon == 0 && $d_day == 0 && $d_hrs == 0 & $d_min == 0;     
-
-        $this->db->where('access_key', $key);
-        $this->db->delete('fast_access');
-
-        return $rtn;
     }
 
     public function test(){
-        echo $this->model_verify('https://cas.sustech.edu.cn/cas/login', '11710403', '0615**iuui')
-            ? 'nb'
-            : 'gg';
+        $min_ip = ip2long('10.128.0.1');
+        echo $min_ip + 0;
+    }
+
+    private function model_login($sid){
+
+        $not_register = $this->db->select('
+                COUNT(*) AS cnt
+            ')
+            ->from('ip_allocate')
+            ->where('sid', $sid)
+            ->get()
+            ->row_array()['cnt'] == '0';
+        
+        if($not_register){
+            $min_ip_int = ip2long('10.128.0.1');
+            $data = array(
+                'sid' => $sid,
+                'ip' => 0
+            );
+            $this->db->insert('ip_allocate', $data);
+            $db_id = $this->db->insert_id();
+            $ip_int = $min_ip_int + $db_id;
+            
+            $this->db->set('ip', $ip_int);
+            $this->db->where('sid', $sid);
+            $this->db->update('ip_allocate');
+        }
     }
 
     private function model_verify($url, $username, $password){
@@ -142,7 +223,7 @@ class Api extends CI_Controller {
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 
         $res = curl_exec($curl);
         if (curl_errno($curl)) {
-            echo 'Errno'.curl_error($curl);
+            return false;
         }
         curl_close($curl); 
         return strpos($res, 'Log In Successful');
