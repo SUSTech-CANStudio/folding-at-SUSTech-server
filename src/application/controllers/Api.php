@@ -89,7 +89,7 @@ class Api extends CI_Controller {
     }
 
     private function _appendConfig($client_ip, $client_pubkey){
-        $file = fopen('folding.conf', 'a'); // TODO /etc/tunsafe/folding.conf
+        $file = fopen('/etc/tunsafe/folding.conf', 'a'); // TODO /etc/tunsafe/folding.conf
         $append_txt = "\n[Peer]\nPublicKey = ".$client_pubkey."\nAllowedIPs = ".$client_ip."/32\nPersistentKeepalive = 60";
         fwrite($file, $append_txt);
         fclose($file);
