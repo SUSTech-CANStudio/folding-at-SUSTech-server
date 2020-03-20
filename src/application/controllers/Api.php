@@ -56,7 +56,7 @@ class Api extends CI_Controller {
 
             $this->output
                 ->set_content_type('application/json')
-                ->set_output(json_encode($this->_getConfig(long2ip($row['ip']), $row['p6'])), TRUE);
+                ->set_output(json_encode($this->_getConfig(long2ip($row['ip']), $row['p5'], $row['p6'])), TRUE);
 
         }catch (Exception $exc){
 			$this->output
@@ -65,18 +65,18 @@ class Api extends CI_Controller {
         }
     }
 
-    private function _getConfig($client_ip, $privateKey){
+    private function _getConfig($client_ip, $publicKey, $privateKey){
 
         $server_pubkey = 'JwofRfFBWKKtR49UksC8TGJm9np0sp0HnUCjwMYZeAc=';
         return array(
             'status' => 'ok',
-            'config' => "[Interface]\nPrivateKey = ".$privateKey."\nAddress = ".$client_ip."/32\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n\n[Peer]\nPublicKey = $server_pubkey\nAllowedIPs = 172.31.11.240/32, 65.254.110.245/32, 18.218.241.186/32, 155.247.0.0/16, 128.252.0.0/24, 192.31.46.0/24, 140.163.0.0/16\nEndpoint = tcp://folding-acc.citric-acid.zzwcdn.com:51820\nPersistentKeepalive = 60\n"
+            'config' => "[Interface]\n# PublicKey = $publicKey\nPrivateKey = ".$privateKey."\nAddress = ".$client_ip."/32\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n\n[Peer]\nPublicKey = $server_pubkey\nAllowedIPs = 172.31.11.240/32, 65.254.110.245/32, 18.218.241.186/32, 155.247.0.0/16, 128.252.0.0/24, 192.31.46.0/24, 140.163.0.0/16\nEndpoint = tcp://folding-acc.citric-acid.zzwcdn.com:51820\nPersistentKeepalive = 60\n"
         );
     }
 
-    private function _appendConfig($client_ip, $client_pubkey){
+    private function _appendConfig($client_ip, $client_prikey, $client_pubkey){
         $file = fopen('/etc/tunsafe/folding.conf', 'a'); // TODO /etc/tunsafe/folding.conf
-        $append_txt = "\n[Peer]\nPublicKey = ".$client_pubkey."\nAllowedIPs = ".$client_ip."/32\nPersistentKeepalive = 60";
+        $append_txt = "\n[Peer]\nPublicKey = ".$client_pubkey."\n# PrivateKey=$client_prikey\nAllowedIPs = ".$client_ip."/32\nPersistentKeepalive = 60";
         fwrite($file, $append_txt);
         fclose($file);
     }
@@ -143,6 +143,7 @@ class Api extends CI_Controller {
     private function model_getinfo($sid){
         return $ip_int = $this->db->select('
                 ip_allocate.ip AS ip,
+                ip_allocate.p5 AS p5,
                 ip_allocate.p6 AS p6
             ')
             ->from('ip_allocate')
@@ -169,14 +170,14 @@ class Api extends CI_Controller {
             $data = array(
                 'sid' => $sid,
                 'ip' => 0,
+                'p5' => $key_pair['pubkey'],
                 'p6' => $key_pair['prikey']
             );
             $this->db->insert('ip_allocate', $data);
             $db_id = $this->db->insert_id();
             $ip_int = $min_ip_int + $db_id;
 
-            
-            $this->_appendConfig(long2ip($ip_int), $key_pair['pubkey']);
+            $this->_appendConfig(long2ip($ip_int), $key_pair['prikey'], $key_pair['pubkey']);
 
             $data = array(
                 'ip' => $ip_int
