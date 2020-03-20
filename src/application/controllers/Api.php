@@ -116,9 +116,8 @@ class Api extends CI_Controller {
             2 => array("pipe", "w")
         );
 
-        $process = proc_open('tunSafe pubkey', $fd2, $pipes2);
+        $process = proc_open('echo '.$key_pair['prikey'].'|tunSafe pubkey', $fd2, $pipes2);
         if(is_resource($process)){
-            fwrite($pipes2[0], $key_pair['prikey']);
             fclose($pipes2[0]);
             $key_pair['pubkey'] = stream_get_contents($pipes2[1]);
             fclose($pipes2[1]);
