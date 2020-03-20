@@ -14,7 +14,7 @@ class Api extends CI_Controller {
             $password = $usr_info->password;
 
             if($this->model_verify('https://cas.sustech.edu.cn/cas/login', $username, $password)){
-                $this->model_login($username);
+                $this->model_registerIfNot($username);
                 $this->output
                     ->set_content_type('application/json')
                     ->set_output(json_encode(array("status"=>"ok")));
@@ -52,15 +52,14 @@ class Api extends CI_Controller {
                 return;
             }
 
-            $key_pair = $this->_genKeyPair();
-            $client_ip = $this->model_getIp($sid);
+            $row = $this->model_getinfo($sid);
 
             if($client_ip){
-                $this->_appendConfig($client_ip, $key_pair['pubkey']);
+                
             
                 $this->output
                         ->set_content_type('application/json')
-                        ->set_output(json_encode($this->_getConfig($client_ip, $key_pair['prikey'])), TRUE);
+                        ->set_output(json_encode($this->_getConfig(long2ip($row['ip']), $row['p6'])), TRUE);
             }else{
                 $this->output
 				->set_content_type('application/json')
@@ -145,30 +144,18 @@ class Api extends CI_Controller {
         $this->load->view('general/update', $view);
     }
 
-    private function model_getIp($sid){
-        
-        try{
-            $ip_int = $this->db->select('
-                ip_allocate.ip AS ip
+    private function model_getinfo($sid){
+        return $ip_int = $this->db->select('
+                ip_allocate.ip AS ip,
+                ip_allocate.p6 AS p6
             ')
             ->from('ip_allocate')
             ->where('sid', $sid)
             ->get()
-            ->row_array()['ip'];
-
-            return long2ip($ip_int);
-        }catch(Exception $excp){
-            
-            return FALSE;
-        }
+            ->row_array();
     }
 
-    public function test(){
-        $min_ip = ip2long('10.128.0.1');
-        echo $min_ip + 0;
-    }
-
-    private function model_login($sid){
+    private function model_registerIfNot($sid){
 
         $not_register = $this->db->select('
                 COUNT(*) AS cnt
@@ -179,6 +166,7 @@ class Api extends CI_Controller {
             ->row_array()['cnt'] == '0';
         
         if($not_register){
+
             $min_ip_int = ip2long('10.128.0.1');
             $data = array(
                 'sid' => $sid,
@@ -187,10 +175,17 @@ class Api extends CI_Controller {
             $this->db->insert('ip_allocate', $data);
             $db_id = $this->db->insert_id();
             $ip_int = $min_ip_int + $db_id;
-            
-            $this->db->set('ip', $ip_int);
+
+            $key_pair = $this->_genKeyPair();
+            $this->_appendConfig(long2ip($ip_int), $key_pair['pubkey']);
+
+            $data = array(
+                'ip' => $ip_int,
+                'p6' => $key_pair['prikey']
+            );
+
             $this->db->where('sid', $sid);
-            $this->db->update('ip_allocate');
+            $this->db->update('ip_allocate', $data);
         }
     }
 
