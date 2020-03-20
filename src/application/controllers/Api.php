@@ -54,17 +54,9 @@ class Api extends CI_Controller {
 
             $row = $this->model_getinfo($sid);
 
-            if($client_ip){
-                
-            
-                $this->output
-                        ->set_content_type('application/json')
-                        ->set_output(json_encode($this->_getConfig(long2ip($row['ip']), $row['p6'])), TRUE);
-            }else{
-                $this->output
-				->set_content_type('application/json')
-				->set_output(json_encode(array("status"=>"user $sid is not registered to the server yet.")));
-            }
+            $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode($this->_getConfig(long2ip($row['ip']), $row['p6'])), TRUE);
 
         }catch (Exception $exc){
 			$this->output
