@@ -81,6 +81,11 @@ class Api extends CI_Controller {
         fclose($file);
     }
 
+    public function genKeyTest(){
+        $key_pair = $this->_genKeyPair();
+        echo 'private key:'.$key_pair['prikey'] . ' public key:'.$key_pair['pubkey'];
+    }
+
     private function _genKeyPair(){
 
         $key_pair = array();
