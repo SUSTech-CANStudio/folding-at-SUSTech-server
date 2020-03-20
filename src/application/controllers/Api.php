@@ -67,9 +67,10 @@ class Api extends CI_Controller {
 
     private function _getConfig($client_ip, $privateKey){
 
+        $server_pubkey = 'JwofRfFBWKKtR49UksC8TGJm9np0sp0HnUCjwMYZeAc=';
         return array(
             'status' => 'ok',
-            'config' => "[Interface]\nPrivateKey = ".$privateKey."\nAddress = ".$client_ip."/32\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n\n[Peer]\nPublicKey = eNj6FEzWMnO6z1Js4iPIp936C07bXV6Ja2Pav5dnuWo=\nAllowedIPs = 172.31.11.240/32, 65.254.110.245/32, 18.218.241.186/32, 155.247.0.0/16, 128.252.0.0/24, 192.31.46.0/24, 140.163.0.0/16\nEndpoint = tcp://folding-acc.citric-acid.zzwcdn.com:51820\nPersistentKeepalive = 60\n"
+            'config' => "[Interface]\nPrivateKey = ".$privateKey."\nAddress = ".$client_ip."/32\nObfuscateKey = babe\nObfuscateTCP = tls-chrome\n\n[Peer]\nPublicKey = $server_pubkey\nAllowedIPs = 172.31.11.240/32, 65.254.110.245/32, 18.218.241.186/32, 155.247.0.0/16, 128.252.0.0/24, 192.31.46.0/24, 140.163.0.0/16\nEndpoint = tcp://folding-acc.citric-acid.zzwcdn.com:51820\nPersistentKeepalive = 60\n"
         );
     }
 
