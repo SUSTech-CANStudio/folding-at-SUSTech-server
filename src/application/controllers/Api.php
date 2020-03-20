@@ -80,7 +80,7 @@ class Api extends CI_Controller {
         fwrite($file, $append_txt);
         fclose($file);
     }
-    
+
     private function _genKeyPair(){
 
         $key_pair = array();
@@ -110,7 +110,7 @@ class Api extends CI_Controller {
 
         // echo $key_pair[]
 
-        $process = proc_open('tunSafe pubkey', $fd2, $pipes2);
+        $process = proc_open('tunsafe pubkey', $fd2, $pipes2);
         if(is_resource($process)){
             fwrite($pipes2[0], $key_pair['prikey']);
             fclose($pipes2[0]);
