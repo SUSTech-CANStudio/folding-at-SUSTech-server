@@ -5,8 +5,6 @@ class Api extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->library('cas');
-
     }
 
     public function login(){
@@ -19,11 +17,7 @@ class Api extends CI_Controller {
                 $this->model_login($username);
                 $this->output
                     ->set_content_type('application/json')
-                    ->set_output(json_encode(array('status'=>'ok')));
-            }else{
-                $this->output
-                    ->set_content_type('application/json')
-                    ->set_output(json_encode(array('status'=>'wrongpwd')));
+                    ->set_output(json_encode(array("status"=>"ok")));
             }
 
 		}catch (Exception $exc){
@@ -162,8 +156,10 @@ class Api extends CI_Controller {
             ->where('sid', $sid)
             ->get()
             ->row_array()['ip'];
+
             return long2ip($ip_int);
-        }catch(Exception $e){
+        }catch(Exception $excp){
+            
             return FALSE;
         }
     }
